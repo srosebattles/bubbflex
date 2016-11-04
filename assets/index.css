@@ -1,0 +1,150 @@
+/** {
+    outline: 2px red solid;
+  }*/
+
+  html, body {
+    box-sizing: border-box;
+    font-family: "GT Walsheim bold", sans-serif;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+    border-bottom: 1px solid #EEE;
+  }
+
+  .logo {
+    margin-top: -11rem;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .topnav {
+    list-style: none;
+  }
+
+  li {
+    font-size: 1rem;
+    display: inline-flex;
+  }
+
+  a.navigate {
+    color: #4D4D4D;
+    text-decoration: none;
+    border-bottom: 4px solid #EEE;
+    transition: all .2s;
+  }
+
+  a.navigate:hover {
+    color: #3DAFCA;
+    border-bottom: 4px solid #3DAFCA;
+  }
+
+   .hide {
+    display: none;
+  }
+
+  .lastpic {
+    display: block;
+  }
+
+  .bubbpic {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .darkGrayFooter {
+    color: #FFF;
+    background-color: #5D6875;
+    text-align: center;
+  }
+
+  a.white {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .footerColumn {
+    margin-top: .2rem;
+  }
+
+  .siteBy {
+    margin-top: .2rem;
+    font-weight: 600;
+    font-size: .8rem;
+    text-align: center;
+    color: #5D6875;
+  }
+
+  /* .topright {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+  } */
+
+
+
+@media (min-width: 699px) {
+
+  .header {
+    padding-bottom: 40px;
+  }
+
+  .hide {
+    display: inline-block;
+  }
+
+  .topleft {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .phone {
+    display: block;
+    font-size: 1.1rem;
+    text-align: right;
+    transition: all .2s;
+  }
+  .little {
+    font-size: .8rem;
+    margin-top: .3rem;
+    text-align: right;
+  }
+
+  .phone:hover {
+    color: #3DAFCA;
+  }
+
+a.topEmail {
+  color: #4D4D4D;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+a.topEmail:hover {
+  color: #3DAFCA;
+}
+
+.darkGrayFooter {
+
+}
+
+.footerColumn {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.2rem;
+  /*font-weight: bold;*/
+  text-align: left;
+  padding: 1rem .5rem;
+}
+
+}
+
+@media (min-width: 1025px){
+
+}
