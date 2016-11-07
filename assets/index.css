@@ -12,6 +12,8 @@
     justify-content: space-between;
     vertical-align: baseline;
     border-bottom: 1px solid #EEE;
+    /*position: fixed;
+    opacity: 1;*/
   }
 
   .logo {
@@ -19,21 +21,27 @@
   }
 
   .navbar {
-    display: flex;
+    display: inline-block;
+  }
+
+  nav {
+    display: block;
   }
 
   .topnav {
     list-style: none;
   }
 
-  li {
+  .clickme {
     font-size: 1rem;
-    display: inline-flex;
+    display: inline-block;
+
   }
 
   a.navigate {
     color: #4D4D4D;
     text-decoration: none;
+    /*padding-bottom: 1rem;*/
     border-bottom: 4px solid #EEE;
     transition: all .2s;
   }
@@ -44,7 +52,258 @@
   }
 
    .hide {
-    display: none;
+    visibility: hidden;
+  }
+
+  /*.nosHeart {
+    margin-top: 70px;
+  }*/
+
+  .nos {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .fa-heart {
+    color: #E14D64;
+    font-size: 4rem;
+  }
+
+  .designE {
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+
+  .criamos {
+    color: gray;
+    font-size: 1.1rem;
+    margin-top: .4rem;
+  }
+
+  .productbreakout {
+    margin-top: 70px;
+    display: inline;
+  }
+
+  .graybox {
+    display: inline-block;
+    width: 99%;
+    border: 1px solid #e6e6e6;
+    border-top: 5px solid #8995A2;
+    padding: 2rem .8rem;
+    margin-top: 6px;
+  }
+
+  .bluebox {
+    display: inline-block;
+    width: 99%;
+    border: 1px solid #e6e6e6;
+    border-top: 5px solid #3DAFCA;
+    padding: 2rem .8rem;
+    margin-top: 6px;
+  }
+
+  .button {
+    border: 1px solid;
+    border-radius: 0;
+  }
+
+  .saiba {
+    background-color: white;
+    color: #707070;
+    font-weight: bold;
+    border-color: #ccc;
+    padding: .8rem 2.4rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  a.link {
+    text-decoration: none;
+    color: #707070;
+  }
+
+  .saiba:hover {
+    cursor: pointer;
+  }
+
+  .title {
+    text-align: center;
+    width: 100%;
+    font-size: 55px;
+    font-weight: 400;
+    margin: 1rem auto;
+  }
+
+  .subtitle {
+    width: 100%;
+    color: #BBB;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: .5rem;
+  }
+
+  .projects {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .projectlist {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .projectdiv {
+    background: gray;
+  }
+
+  .projectpic {
+    /*width: 100%;
+    height: auto;*/
+    margin: 0;
+    /*z-index: -3;*/
+    position: relative;
+    opacity: .7;
+  }
+
+  .projectText {
+    z-index: 3;
+    position: absolute;
+    padding: .5rem;
+    text-align: center;
+    font-size: .9rem;
+    visibility: visible;
+  }
+
+  .projectHead {
+    position: absolute;
+    padding: .5rem;
+    font-weight: 600;
+    font-size:18px;
+    text-align: center;
+  }
+
+  .seeMore {
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem .9rem;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    border-radius: 0px;
+    border: none;
+  }
+
+  .seeMore:hover {
+    cursor: pointer;
+    color: gray;
+    background-color: white;
+    transition: background-color .2s ease;
+    transition: color .2s ease;
+  }
+
+  .bluebutton {
+    text-align: center;
+    margin: 2rem auto;
+
+  }
+
+  .maisprojetos {
+    border: none;
+    border-radius: 0px;
+    background-color: #3DAFCA;
+    color: white;
+    padding: 1.2rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 12rem;
+    transition: .2s ease;
+  }
+
+  .maisprojetos:hover {
+    cursor: pointer;
+    background-color: #3DAFFA;
+    /*color: #3DAFCA;
+    border: 1px solid #3DAFCA;*/
+  }
+
+  .studiocontainer {
+    padding: 3rem 1rem;
+  }
+
+  .studioText {
+    /*width: 100%;*/
+    color: gray;
+  }
+
+  .funfacts {
+    width: 100%;
+    background-color: #4C535F;
+    color: #7A808B;
+  }
+
+  .eachfact {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .iconPic {
+    padding-right: 1rem;
+  }
+
+  .number {
+    font-size: 32px;
+  }
+
+  .contactContainer {
+    background-color: #F5F5F5;
+    text-align: center;
+  }
+
+  .awesome {
+    border: none;
+    border-bottom: 3px solid #ccc;
+    margin: 1rem auto;
+    color: #666;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #F5F5F5;
+  }
+
+  .awesome:focus {
+    border-bottom: 3px solid gray;
+  }
+
+  /*.subject {
+    margin: 1rem auto;
+  }*/
+
+  .entrywide {
+    border: none;
+  }
+
+  .enviar {
+    border: none;
+    border-radius: 0px;
+    background-color: #3DAFCA;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: .2s ease;
+  }
+
+  .enviar:hover {
+    cursor: pointer;
+    background-color: #3DAFFA;
   }
 
   .lastpic {
@@ -79,13 +338,12 @@
     color: #5D6875;
   }
 
-  /* .topright {
-    display: flex;
-    align-items: flex-end;
-    align-content: flex-end;
-    justify-content: flex-end;
-    text-align: right;
-  } */
+  a.icons8 {
+    color: #5D6875;
+    text-align: center;
+    text-decoration: none;
+  }
+
 
 
 
@@ -96,12 +354,45 @@
   }
 
   .hide {
-    display: inline-block;
+    visibility: visible;
   }
 
   .topleft {
     display: flex;
     justify-content: space-between;
+  }
+
+  .navbar {
+    padding-left: 1rem;
+  }
+
+  .topcontact {
+    display: inline-block;;
+  }
+
+  .social {
+    display: inline-block;
+    visibility: hidden;
+  }
+
+  .fa-facebook {
+    padding-right: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .fa-instagram {
+    padding-right: 2rem;
+    font-size: 1.2rem;
+  }
+
+  a.socialLink {
+    color: #ccc;
+    text-decoration: none;
+    transition: all .3s ease;
+  }
+
+  a.socialLink:hover {
+    color: #3DAFCA;
   }
 
   .phone {
@@ -130,6 +421,119 @@ a.topEmail:hover {
   color: #3DAFCA;
 }
 
+.nosHeart {
+  /*max-width: 45%;*/
+}
+
+.nos {
+  font-size: 100px;
+}
+
+.designE {
+  font-size: 60px;
+}
+
+.criamos {
+  font-size: 24px;
+}
+
+.fa-heart {
+  color: #E14D64;
+  font-size: 100px;
+}
+
+.productbreakout {
+  display: inline-flex;
+}
+
+.graybox {
+  display: inline-block;
+  margin-top: 6px;
+  width: 50%;
+  border: 1px solid #e6e6e6;
+  border-top: 5px solid #8995A2;
+}
+
+.bluebox {
+  display: inline-block;
+  margin-top: 6px;
+  width: 50%;
+  border: 1px solid #e6e6e6;
+  border-top: 5px solid #3DAFCA;
+}
+
+.saiba {
+  padding: .7rem 2.4rem;
+}
+
+.title {
+  margin-top: 2rem;
+}
+
+.subtitle {
+  padding-bottom: 1.5rem;
+}
+
+.projects {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.projectlist {
+  margin: auto;
+}
+
+.projectitem {
+  display: inline-block;
+}
+
+.projectpic {
+  /*width: 50%;*/
+  height: auto;
+  margin: 0;
+}
+
+.projectText {
+  max-width: 40%;
+  font-size: 1rem;
+}
+
+.maisprojetos {
+  width: 24rem;
+}
+
+.studioText {
+  padding: 1rem 3rem;
+}
+
+.contactContainer {
+  display: block;
+}
+
+.topgray {
+  padding-top: 2rem;
+}
+
+.entryset {
+  display: flex;
+  justify-content: center;
+}
+
+.entry {
+  width: 50%
+}
+
+.entrywide {
+  width: 100%
+}
+
+textarea {
+  width: 65%
+}
+
 .darkGrayFooter {
 
 }
@@ -146,5 +550,61 @@ a.topEmail:hover {
 }
 
 @media (min-width: 1025px){
+
+  .social {
+    visibility: visible;
+  }
+
+  .navbar {
+    padding-left: 10rem;
+  }
+
+  .nosHeart {
+    padding-top: 3rem;
+  }
+
+  .bluebox {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .graybox {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .projectText {
+    max-width: 40%
+  }
+
+  .projectpic {
+    opacity: .7;
+    /*transition: all .2s ease;*/
+  }
+
+  /*.projectpic:hover {
+    opacity: .7;
+  }*/
+
+  .projectText {
+    opacity: 0;
+    transition: all .2s ease;
+  }
+
+  .projectText:hover {
+    opacity: 1;
+  }
+
+  .studiocontainer {
+    display: flex;
+  }
+
+  .studioText {
+    width: 50%;
+  }
+
+  .funfacts {
+    width: 50%
+  }
 
 }
