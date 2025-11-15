@@ -1,26 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Bubb Web Studio - Criamos experiências digitais para o seu negócio. Desenvolvimento de websites, lojas virtuais, sistemas personalizados e peças digitais em Ibitinga-SP.">
+  <meta name="keywords" content="web design, desenvolvimento web, loja virtual, e-commerce, websites, Ibitinga, Brasil">
+  <meta name="author" content="Bubb Web Studio">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.bubb.com.br/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.bubb.com.br/">
+  <meta property="og:title" content="Bubb Web Studio - Design e Código">
+  <meta property="og:description" content="Criamos experiências digitais para o seu negócio. Desenvolvimento de websites, lojas virtuais e sistemas personalizados.">
+  <meta property="og:image" content="https://www.bubb.com.br/assets/img/sprite.png">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.bubb.com.br/">
+  <meta name="twitter:title" content="Bubb Web Studio - Design e Código">
+  <meta name="twitter:description" content="Criamos experiências digitais para o seu negócio.">
+  <meta name="twitter:image" content="https://www.bubb.com.br/assets/img/sprite.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
   <script src="https://use.fontawesome.com/47c5ddb972.js"></script>
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="assets/index.css" media="screen">
-  <title>BUBB WEB STUDIO</title>
+  <title>Bubb Web Studio - Design e Código | Desenvolvimento Web em Ibitinga-SP</title>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Bubb Web Studio",
+    "image": "https://www.bubb.com.br/assets/img/sprite.png",
+    "description": "Criamos experiências digitais para o seu negócio. Desenvolvimento de websites, lojas virtuais, sistemas personalizados e peças digitais.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R Coronel Geretto, 372 - Sala 4",
+      "addressLocality": "Ibitinga",
+      "addressRegion": "SP",
+      "postalCode": "14940-000",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -21.7575,
+      "longitude": -48.8242
+    },
+    "url": "https://www.bubb.com.br/",
+    "telephone": "+551633418797",
+    "email": "contato@bubb.com.br",
+    "priceRange": "$$",
+    "openingHours": "Mo-Fr 09:00-18:00",
+    "sameAs": [
+      "https://www.facebook.com/bubbwebstudio",
+      "https://www.instagram.com/bubbwebstudio"
+    ]
+  }
+  </script>
 </head>
 <body>
+  <!-- Skip Navigation Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
 
   <header role="banner" class="header">
   <div class="topleft">
-    <div class="logo"><img src="http://www.bubb.com.br/assets/img/sprite.png" alt="Bubb logo" /></div>
+    <div class="logo"><img src="http://www.bubb.com.br/assets/img/sprite.png" alt="Bubb Web Studio - Logotipo" /></div>
     <div class="navbar">
-      <nav>
+      <nav aria-label="Navegação principal">
     <ul class="topnav">
-      <li class="clickme"><a href="#projetos" class="navigate">projetos</a></li>
-      <li class="clickme"><a href="#ostudio" class="navigate">o studio</a></li>
-      <li class="clickme"><a href="#" class="navigate">clientes</a></li>
-      <li class="clickme"><a href="#contato" class="navigate">contato</a></li>
+      <li class="clickme"><a href="#projetos" class="navigate">Projetos</a></li>
+      <li class="clickme"><a href="#ostudio" class="navigate">O Studio</a></li>
+      <li class="clickme"><a href="#clientes" class="navigate">Clientes</a></li>
+      <li class="clickme"><a href="#contato" class="navigate">Contato</a></li>
     </ul>
       </nav>
     </div>
@@ -28,54 +89,60 @@
 
     <div class="topright hide">
       <div class="social">
-        <a class="socialLink" href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a class="socialLink" href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a class="socialLink" href="https://www.instagram.com/bubbwebstudio" aria-label="Siga-nos no Instagram" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <span class="sr-only">Instagram</span>
+        </a>
+        <a class="socialLink" href="https://www.facebook.com/bubbwebstudio" aria-label="Siga-nos no Facebook" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <span class="sr-only">Facebook</span>
+        </a>
       </div>
       <div class="topcontact">
-      <div class="phone"> <a class="topEmail" href="tel:1633418797"><strong>16 3341 8797</strong></a></div>
-      <div class="little"><a class="topEmail" href="mailto:contato@bubb.com.br">contato@bubb.com.br</a></div>
+      <div class="phone"> <a class="topEmail" href="tel:+551633418797" aria-label="Ligue para 16 3341 8797"><strong>16 3341 8797</strong></a></div>
+      <div class="little"><a class="topEmail" href="mailto:contato@bubb.com.br" aria-label="Envie um e-mail para contato@bubb.com.br">contato@bubb.com.br</a></div>
       </div>
     </div>
   </header>
-<div class="nosHeart">
-  <div class="nos">nós <i class="fa fa-heart" id="heart" aria-hidden="true"></i></div>
-  <div class="designE">design e código</div>
-  <div class="criamos">Criamos experiências<br>
-digitais para o seu negócio</div>
-</div>
 
-<div class="productbreakout">
-<div class="graybox">
-  <h2>websites</h2>
-  <div>
-    Os projetos nascem de uma experiência simplificada e descontraída, atendendo a cada perfil específico e traduzindo de maneira fiel e respeitosa a imagem do seu negócio. Desenvolvemos websites institucionais e promocionais, entre outros que possa imaginar para trabalharmos juntos.
-  </div>
-</div>
-<div class="bluebox">
-  <h2>loja virtual</h2>
-  <div>Montada de maneira exclusiva e com um visual único, nossa loja virtual pode gerar um número de conversões e faturamento maior. <br />
+<main id="main-content">
+<section class="nosHeart" aria-label="Hero">
+  <h1 class="nos">nós <i class="fa fa-heart" id="heart" aria-hidden="true"></i> design e código</h1>
+  <p class="criamos">Criamos experiências digitais para o seu negócio</p>
+</section>
+
+<section class="productbreakout" aria-label="Serviços">
+<article class="graybox">
+  <h2>Websites</h2>
   <p>
-    <a href="https://www.bubb.com.br" class="link"><button type="button" class="button saiba">saiba mais</button></a>
+    Os projetos nascem de uma experiência simplificada e descontraída, atendendo a cada perfil específico e traduzindo de maneira fiel e respeitosa a imagem do seu negócio. Desenvolvemos websites institucionais e promocionais, entre outros que possa imaginar para trabalharmos juntos.
   </p>
-</div>
-</div>
-<div class="graybox">
-  <h2>sistemas</h2>
-  <div>
-    Desenvolvemos sistemas web totalmente personalizados para o seu negócio. Nos preocupamos em criar soluções simples, funcionais e elegantes<br />
-  </div>
-</div>
-<div class="bluebox">
-  <h2>pecas digitais</h2>
-  <div>
-    Peças publicitárias de alto nível. Criamos banners, e-mails marketing e peças em geral nos padrões que o mercado exige. <br />
-  </div>
-</div>
-</div>
+</article>
+<article class="bluebox">
+  <h2>Loja Virtual</h2>
+  <p>Montada de maneira exclusiva e com um visual único, nossa loja virtual pode gerar um número de conversões e faturamento maior.</p>
+  <p>
+    <a href="https://www.bubb.com.br" class="link"><button type="button" class="button saiba">Saiba mais</button></a>
+  </p>
+</article>
+<article class="graybox">
+  <h2>Sistemas</h2>
+  <p>
+    Desenvolvemos sistemas web totalmente personalizados para o seu negócio. Nos preocupamos em criar soluções simples, funcionais e elegantes.
+  </p>
+</article>
+<article class="bluebox">
+  <h2>Peças Digitais</h2>
+  <p>
+    Peças publicitárias de alto nível. Criamos banners, e-mails marketing e peças em geral nos padrões que o mercado exige.
+  </p>
+</article>
+</section>
 
-<div class="title" id="projetos">projetos</div>
-<div class="subtitle">nossos últimos trabalhos publicados</div>
-<div class="projects">
+<section id="projetos" class="projects" aria-labelledby="projetos-title">
+<h2 id="projetos-title" class="title">Projetos</h2>
+<p class="subtitle">Nossos últimos trabalhos publicados</p>
+<div class="projects-container">
   <ul class="projectlist">
 
     <li class="projectitem">
@@ -270,56 +337,79 @@ digitais para o seu negócio</div>
   </div>
 </div>
 
-<div class="contactContainer">
-  <div class="title topgray" id="contato">contato</div>
-  <div class="subtitle">será um prazer conversar com você</div>
+<section class="contactContainer" id="contato" aria-labelledby="contato-title">
+  <h2 id="contato-title" class="title topgray">Contato</h2>
+  <p class="subtitle">Será um prazer conversar com você</p>
+  <form action="#" method="post" aria-label="Formulário de contato">
   <div class="entryset">
-  <div class="entry"><input class="awesome" type="text" name="name" placeholder="seu nombre"></div>
-  <div class="entry"><input class="awesome" type="email" name="email" placeholder="seu email"></div>
-  </div>
-  <div class="entryset">
-  <div class="entry"><input class="awesome" type="text" name="enterprise" placeholder="empresa"></div>
-  <div class="entry"><input class="awesome" type="text" name="phone" placeholder="telefone"></div>
-  </div>
-  <div class="entryset">
-  <div class="entry"><input class="awesome" type="text" name="city" placeholder="cidade"></div>
   <div class="entry">
-    <select class="subject awesome" name="subject">
-    <option value="">o que voce gostaria de fazer?</option>
-    <option value="website">website</option>
-    <option value="loja virtual">loja virtual</option>
-    <option value="sistema personalizado">sistema personalizado</option>
-    <option value="banners/email marketing">banners/email marketing</option>
-    <option value="outro">outro</option>
+    <label for="name" class="sr-only">Seu nome</label>
+    <input class="awesome" type="text" id="name" name="name" placeholder="Seu nome" required aria-required="true">
+  </div>
+  <div class="entry">
+    <label for="email" class="sr-only">Seu e-mail</label>
+    <input class="awesome" type="email" id="email" name="email" placeholder="Seu e-mail" required aria-required="true">
+  </div>
+  </div>
+  <div class="entryset">
+  <div class="entry">
+    <label for="enterprise" class="sr-only">Empresa</label>
+    <input class="awesome" type="text" id="enterprise" name="enterprise" placeholder="Empresa">
+  </div>
+  <div class="entry">
+    <label for="phone" class="sr-only">Telefone</label>
+    <input class="awesome" type="tel" id="phone" name="phone" placeholder="Telefone">
+  </div>
+  </div>
+  <div class="entryset">
+  <div class="entry">
+    <label for="city" class="sr-only">Cidade</label>
+    <input class="awesome" type="text" id="city" name="city" placeholder="Cidade">
+  </div>
+  <div class="entry">
+    <label for="subject" class="sr-only">O que você gostaria de fazer?</label>
+    <select class="subject awesome" id="subject" name="subject" aria-label="Selecione o tipo de serviço">
+    <option value="">O que você gostaria de fazer?</option>
+    <option value="website">Website</option>
+    <option value="loja virtual">Loja Virtual</option>
+    <option value="sistema personalizado">Sistema Personalizado</option>
+    <option value="banners/email marketing">Banners/Email Marketing</option>
+    <option value="outro">Outro</option>
     </select>
    </div>
    </div>
   <div class="entrywide">
-    <textarea class="awesome" name="text" rows="6" placeholder="conte um pouco sobre o seu projecto"></textarea>
-
+    <label for="message" class="sr-only">Conte um pouco sobre o seu projeto</label>
+    <textarea class="awesome" id="message" name="message" rows="6" placeholder="Conte um pouco sobre o seu projeto"></textarea>
   </div>
-  <div class="entrywide"> <button class="enviar" type="submit" name="button">enviar mensagem</button></div>
-</div>
+  <div class="entrywide"> <button class="enviar" type="submit">Enviar mensagem</button></div>
+  </form>
+</section>
 
 
 <div class="lastpic">
-  <img class="bubbpic" src="http://www.bubb.com.br/assets/img/workers/team.jpg" alt="Picture of the Team"/>
+  <img class="bubbpic" src="http://www.bubb.com.br/assets/img/workers/team.jpg" alt="Foto da equipe Bubb Web Studio"/>
 </div>
-  <footer>
+</main>
+
+  <footer role="contentinfo">
     <div class="darkGrayFooter">
       <div class="footerColumn">
-        nos envie um e-mail <br>
-      <a class="white" href="mailto:contato@bubb.com.br"><strong>contato@bubb.com.br</strong></a></div>
-      <div class="footerColumn">ligue para nós<br>
-            <a class="white" href="tel:1633418797"><strong>16 3341 8797</strong></a></div>
-      <div class="footerColumn"><strong>venha tomar um café</strong><br>
-            R Coronel Geretto, 372 - Sala 4 <br>
+        <p>Nos envie um e-mail</p>
+      <a class="white" href="mailto:contato@bubb.com.br" aria-label="Envie um e-mail para contato@bubb.com.br"><strong>contato@bubb.com.br</strong></a></div>
+      <div class="footerColumn"><p>Ligue para nós</p>
+            <a class="white" href="tel:+551633418797" aria-label="Ligue para 16 3341 8797"><strong>16 3341 8797</strong></a></div>
+      <div class="footerColumn"><p><strong>Venha tomar um café</strong></p>
+            <address>
+            R Coronel Geretto, 372 - Sala 4<br>
             Centro - Ibitinga-SP<br>
-            CEP 14940-000 </div>
+            CEP 14940-000
+            </address>
+      </div>
     </div>
     <div class="siteBy">
-      site feito por nós mesmos<br>
-      <a class="icons8" href="https://icons8.com">Icon pack by Icons8</a>
+      <p>Site feito por nós mesmos<br>
+      <a class="icons8" href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icon pack by Icons8</a></p>
     </div>
   </footer>
 
